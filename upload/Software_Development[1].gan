@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="XYX" company="" webLink="http://" view-date="2024-09-08" view-index="1" gantt-divider-location="368" resource-divider-location="300" version="3.3.3312" locale="en_IN">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="199" order="0"/>
+        <field id="tpd4" name="Begin date" width="77" order="1"/>
+        <field id="tpd5" name="End date" width="76" order="2"/>
+        <option id="taskLabelUp" value="length"/>
+        <option id="taskLabelDown" value="name"/>
+        <option id="taskLabelLeft" value=""/>
+        <option id="taskLabelRight" value=""/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[4]]></timeline>
+        <option id="color.recent"><![CDATA[#99ff00 #ffcccc #ccffff #ccccff #003333 #006666 #333333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="0b1a83d094824959bdd04686f5b3b70b" name="Analysis" color="#006666" meeting="false" start="2024-09-10" duration="8" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true"/>
+        <task id="1" uid="d88fdda37ebd4f33884417fe39dd6c1d" name="Requirement Meeting" color="#8cb6ce" meeting="false" start="2024-09-11" duration="3" complete="69" thirdDate="2024-09-11" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="d2245197cb3348a49c7ed23b1bd1f5a4" name="Communication with Stakeholder" color="#8cb6ce" meeting="false" start="2024-09-16" duration="2" complete="95" thirdDate="2024-09-11" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="649ac9a67c76474594530587c9d03c40" name="Document Current System" color="#8cb6ce" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-11" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="a8f973c749324d54a1676a4c9ad523b9" name="Analysis Finished" color="#8cb6ce" meeting="true" start="2024-09-20" duration="0" complete="0" thirdDate="2024-09-11" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="a19d3d21d63045b6a3cc63f8c10b5848" name="Design" color="#ccccff" meeting="false" start="2024-09-20" duration="18" complete="61" thirdDate="2024-09-05" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="6" uid="c39b702e4bde45eab7895b9b10050df7" name="Design Database" color="#8cb6ce" meeting="false" start="2024-09-20" duration="5" complete="30" thirdDate="2024-09-06" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="219c209dc9f441c6bb2d74d06d3db614" name="Software Design" color="#8cb6ce" meeting="false" start="2024-09-27" duration="6" complete="0" thirdDate="2024-09-06" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="ae8ea811bab442c69fa0491058de97e2" name="Interface Design" color="#8cb6ce" meeting="false" start="2024-10-07" duration="3" complete="0" thirdDate="2024-09-06" thirdDate-constraint="0" expand="true"/>
+        <task id="9" uid="98578e20850e458a8ac8c245ca88bf17" name="Create Design Specifications" color="#8cb6ce" meeting="false" start="2024-10-07" duration="7" complete="0" thirdDate="2024-09-06" thirdDate-constraint="0" expand="true"/>
+        <task id="10" uid="837bdbba8d9e4d96a0083c795fcdce4a" name="Design Finished" color="#8cb6ce" meeting="true" start="2024-10-16" duration="0" complete="0" thirdDate="2024-09-06" thirdDate-constraint="0" expand="true"/>
+        <task id="11" uid="cf93444db84349739368852c7c6262b0" name="Development" color="#8cb6ce" meeting="false" start="2024-09-20" duration="22" complete="0" thirdDate="2024-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="12" uid="a737cc8f692346ae845340ca4a620a27" name="Develop System module" color="#8cb6ce" meeting="false" start="2024-09-20" duration="12" complete="0" thirdDate="2024-09-20" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="22998fe1378941bbaf897ae2ae6c6de9" name="Integrate System Module" color="#8cb6ce" meeting="false" start="2024-10-08" duration="7" complete="0" thirdDate="2024-09-16" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="15" uid="fedd9bfdff86463d8b4f7c8993b69225" name="Initial Testing" color="#8cb6ce" meeting="false" start="2024-10-17" duration="3" complete="0" thirdDate="2024-09-09" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="ae87662418bf4f8cab269d626075ad59" name="Development Finished" color="#8cb6ce" meeting="true" start="2024-10-22" duration="0" complete="0" thirdDate="2024-09-09" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="16" uid="c79575fa91c0459abe99f6401f286b86" name="Testing" color="#8cb6ce" meeting="false" start="2024-10-22" duration="17" complete="0" thirdDate="2024-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="17" uid="8153c87617254b6fbfa84a224f0b56de" name="Testing Finished" color="#8cb6ce" meeting="true" start="2024-11-13" duration="0" complete="0" thirdDate="2024-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="18" uid="cdeff0882e3a4974bd48f54d91401a46" name="Deployment" color="#8cb6ce" meeting="false" start="2024-11-14" duration="9" complete="0" thirdDate="2024-09-16" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="19" uid="e6fda41a3aac4126a4323079afadb7a5" name="Complete Project" color="#003333" meeting="true" start="2024-11-26" duration="0" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="1" name="D1" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="D2" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="s" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="Swarup" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
